@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+}
+
+p{
+    color: white;
+    border: white 4px solid;
+    padding: 15px;
+    transition: background-color 1s, color 1s, transform 1s;
+
+}
+
+p:hover{
+    background-color: white;
+    color: black;
+    transform: translate(3em,0);
+}
